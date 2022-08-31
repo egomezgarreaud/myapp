@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @bootcamp %>
+
+<div>
+  <%= link_to "Edit this bootcamp", edit_bootcamp_path(@bootcamp) %> |
+  <%= link_to "Back to bootcamps", bootcamps_path %>
+
+  <%= button_to "Destroy this bootcamp", @bootcamp, method: :delete %>
+</div>
